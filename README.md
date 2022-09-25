@@ -1,7 +1,7 @@
 # K-Means Clustering with MapReduce Framework
 
 ## Introduction
-The [`EMNIST`](https://www.nist.gov/itl/products-and-services/emnist-dataset) dataset is a dataset of handwritten letters, consisting of 124,800 training examples and 20,800 test examples. The task is to use K-Means clustering algorithm to recognize the handwritten letters. This project is a proof-of-concept for implementing K-Means clustering in MapReduce framework from scratch: writing the whole pipeline, including mappers and reducers, from scratch. In other words, I avoided using modern frameworks such as `Spark` (where K-Means clustering is implemented as part of `MLlib` in [here](https://spark.apache.org/docs/latest/ml-clustering.html)).
+The [`EMNIST`](https://www.nist.gov/itl/products-and-services/emnist-dataset) dataset is a dataset of handwritten letters, consisting of 124,800 training examples and 20,800 test examples. The task is to use K-Means clustering algorithm to recognize the handwritten letters. This project is a proof-of-concept for implementing K-Means clustering in MapReduce framework: writing the whole pipeline, including mappers and reducers, from scratch. In other words, I avoided using modern frameworks such as `Spark` (where K-Means clustering is implemented as part of `MLlib` in [here](https://spark.apache.org/docs/latest/ml-clustering.html)).
 
 ![EMNIST](emnist.jpg)
 
