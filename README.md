@@ -17,4 +17,4 @@ hadoop jar /usr/hdp/2.4.2.0-258/hadoop-mapreduce/hadoop-streaming.jar \
 ```
 
 ## Closing Remarks
-Since the project was meant to be a proof-of-concept only, the results were not that impressive (on average, the pipeline was able to correctly classify $43.87\%$ of the letters); after all, K-Means Clustering is not a state-of-the-art machine learning algorithm. By being able to write K-Means clustering in MapReduce framework, we can extend the algorithm to distributed setting for scaling to huge datasets.
+Since the project was meant to be a proof-of-concept only, the results were not that impressive (on average, the pipeline was able to correctly classify $43.87$% of the letters); after all, K-Means Clustering is not a state-of-the-art machine learning algorithm. By being able to write K-Means clustering in MapReduce framework, we can extend the algorithm to distributed setting for scaling to huge datasets.
